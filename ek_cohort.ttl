@@ -223,6 +223,12 @@
 :Contact rdf:type owl:Class .
 
 
+###  http://www.owl-ontologies.com/travel.owl#CulturalDestination
+:CulturalDestination rdf:type owl:Class ;
+                     rdfs:subClassOf :Destination ;
+                     rdfs:comment "A destination with rich cultural activities, including museums, historical architecture, monuments, concert venues, and restaurants" .
+
+
 ###  http://www.owl-ontologies.com/travel.owl#Destination
 :Destination rdf:type owl:Class .
 
