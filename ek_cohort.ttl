@@ -6,6 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix daml: <http://www.daml.org/2001/03/daml+oil#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @base <http://www.owl-ontologies.com/travel.owl#> .
 
 <http://www.owl-ontologies.com/travel.owl> rdf:type owl:Ontology ;
@@ -93,7 +94,8 @@
 
 ###  http://www.owl-ontologies.com/travel.owl#Accommodation
 :Accommodation rdf:type owl:Class ;
-               rdfs:comment "A place to stay for tourists." .
+               rdfs:comment "A place to stay for tourists." ;
+               skos:definition "A definition goes here." .
 
 
 ###  http://www.owl-ontologies.com/travel.owl#AccommodationRating
